@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "browseNow",
+  "version": "0.0.0.1",
+  "description": "browseNow",
+  "browser_action": {
+    "default_icon": {
+    },
+    "default_title": "browseNow!",
+    "default_popup": "popup.html"
+  },
+    "permissions": [
+          "tabs"
+    ]
+}

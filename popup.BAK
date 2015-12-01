@@ -1,0 +1,9 @@
+<script>
+chrome.tabs.query(
+    {
+        currentWindow: true,    // currently focused window
+        active: true            // selected tab
+    },
+(function(e)
+	{window.open("http://kamabokonet.com/pageshare/main.php?url="+e(location.href)+"&title="+e(document.title),null,"width=480,height=280");})(encodeURIComponent);
+</script>
